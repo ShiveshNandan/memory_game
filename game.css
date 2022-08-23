@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(21, 21, 60);
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+    color: bisque;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    width: 400px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 110px;
+}
+.box0,.box1,.box2,.box3{
+    margin: 20px;
+    height: 120px;
+    width: 120px;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+.box0{
+    background-color: red;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: green;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
